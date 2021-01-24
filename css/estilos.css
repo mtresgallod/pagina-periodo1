@@ -1,0 +1,88 @@
+
+/*Medidas y márgenes para toda la página */
+#contenedor{
+    width: 1100px;
+    margin: 0px auto;
+
+    
+
+}
+/*Borde para la imagen del encabezado*/
+header img{
+    border: black 5px solid;
+}
+
+nav{
+    background-color: darkkhaki;
+}
+
+nav ul{
+    margin: 0px;
+    margin-left: 60%;
+    padding: 0px;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: floralwhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+nav a:hover{
+    background-color: mediumblue;
+}
+
+#content{|
+    float: left;
+    width: 80%;
+    background-color: darkcyan;
+    min-height: 500px;
+    
+    
+}
+
+.clearfix{
+    clear: both;
+}
+aside{
+    
+    float: left;
+    width:20% ;
+    min-height: 500px;
+    
+}
+
+footer{
+    background: grey;
+    color: ivory;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+aside img{
+    border: black 5px solid;
+    width: 80%;
+    height: 80%;
+    display:block;
+    margin:auto;
+    
+}
+
+aside h2{
+    text-align: center;
+}
+
+article{
+    margin-left: 20px;
+}
